@@ -1,0 +1,28 @@
+<p>tela-cambio works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th> titulo valores</th>
+        </tr> 
+    </thead>
+    <tbody>
+        <tr *ngFor="let valor of valores">
+            <td>
+                <span>
+                    {{valor.name}}
+                </span>
+            
+                <span>
+                    {{valor.type}}
+                </span>
+                <span>
+                    {{valor.unit}}
+                </span>
+                <span>
+                    {{valor.value}}
+                </span>
+            </td>
+        </tr>
+    </tbody>
+</table>
